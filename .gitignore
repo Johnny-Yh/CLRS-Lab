@@ -31,5 +31,6 @@
 *.out
 *.app
 
-Lab1/pro1
-Lab1/pro2
+
+*/pro1
+*/pro2
