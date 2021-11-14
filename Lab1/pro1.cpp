@@ -47,3 +47,9 @@ public:
         }
     }
 };
+
+int main(){
+    vector<int> nums1={1,2},nums2={3,4};
+    Solution ins;
+    cout<<"The result is:"<<ins.findMedianSortedArrays(nums1,nums2)<<endl;
+}

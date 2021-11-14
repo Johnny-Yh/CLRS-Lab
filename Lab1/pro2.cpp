@@ -26,3 +26,10 @@ public:
         return get(nums, 0, nums.size() - 1).mSum;
     }
 };
+
+
+int main(){
+    vector<int> nums={-2,1,-3,4,-1,2,1,-5,4};
+    Solution ins;
+    cout<<"The result is:"<<ins.maxSubArray(nums)<<endl;
+}
