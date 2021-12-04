@@ -399,18 +399,15 @@ public:
 		} else {
 			y->right = node;
 		}
-
 		// if new node is a root node, simply return
 		if (node->parent == nullptr){
 			node->color = 0;
 			return;
 		}
-
 		// if the grandparent is null, simply return
 		if (node->parent->parent == nullptr) {
 			return;
 		}
-
 		// Fix the tree
 		fixInsert(node);
 	}
